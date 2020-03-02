@@ -188,8 +188,8 @@ function TerrysWorldServerHandle(message)
 //DO NOT SHARE THIS TOKEN PUBLICLY!!
 //Replace this code with your token.
 if(process.env.TOKEN_VAR != null)
-    var token = process.env.TOKEN_VAR;
+    var token = "NjgzNjcwMzYxNTM1MTUyMTY2.Xl105Q.vttG1ToiroFi624_lWQOADDeTMQ";
 else
-    var token = 'NjgzNjcwMzYxNTM1MTUyMTY2.Xlvx9w.rKsg1dNO6E1o31t4KJXQjCmiYLc';
+    var token = 'NjgzNjcwMzYxNTM1MTUyMTY2.Xl105Q.vttG1ToiroFi624_lWQOADDeTMQ';
 
 client.login(token);
