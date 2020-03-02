@@ -1,21 +1,12 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const config = require("./config.json");
-
-var EpicVikingServerConfig = require("./config/EpicVikingServer.config.json");
-var TerrysWorldConfig = require("./config/TerrysWorld.config.json");
-let chan = null;
 const invites = {};
 
 // A pretty useful method to create a delay without blocking the whole script.
-const wait = require('util').promisify(setTimeout);
-
 client.on('ready', () => {
     console.log(`Bot has started, with ${client.users.size} users, in ${client.channels.size} channels of ${client.guilds.size} guilds.`);
     client.user.setActivity(`RE "Developer`);
- // "ready" isn't really ready. We need to wait a spell.
- wait(1000);
-
  // Load all invites for all guilds and save them to the cache.
  client.guilds.forEach(g => {
    g.fetchInvites().then(guildInvites => {
