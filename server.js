@@ -184,4 +184,4 @@ function TerrysWorldServerHandle(message)
         message.reply('your message contained content that was flagged as *spam*, please refer to the server rules.');
     }
 }
-client.login("NjgzNjcwMzYxNTM1MTUyMTY2.Xl166g.LfSdqsTEeV_ABxizyPNwzH0BPFo");
+client.login("NjgzNjcwMzYxNTM1MTUyMTY2.Xl18CA.8B1Ah5oWz0k3mXadCo-3p1ee5eg");
