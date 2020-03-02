@@ -187,9 +187,9 @@ function TerrysWorldServerHandle(message)
 
 //DO NOT SHARE THIS TOKEN PUBLICLY!!
 //Replace this code with your token.
-if(process.env.TOKEN_VAR != null)
-    var token = "NjgzNjcwMzYxNTM1MTUyMTY2.Xl105Q.vttG1ToiroFi624_lWQOADDeTMQ";
-else
-    var token = 'NjgzNjcwMzYxNTM1MTUyMTY2.Xl105Q.vttG1ToiroFi624_lWQOADDeTMQ';
-
+if(process.env.TOKEN_VAR != null) {
+    var token = "NjgzNjcwMzYxNTM1MTUyMTY2.Xl15tg.LvcAA9SlQVNs3ue0nCVU9FATjZE";
+} else {
+    var token = 'NjgzNjcwMzYxNTM1MTUyMTY2.Xl15tg.LvcAA9SlQVNs3ue0nCVU9FATjZE';
+}
 client.login(token);
